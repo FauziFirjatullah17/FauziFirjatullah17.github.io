@@ -43,7 +43,7 @@ $sql = query('SELECT * FROM profile');
                     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="http://localhost/portofolio/views/index.php" class="nav-link">Home</a>
+                    <a href="../views/index.php" class="nav-link">Home</a>
                 </li>
             </ul>
         </nav>
@@ -67,7 +67,7 @@ $sql = query('SELECT * FROM profile');
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                         <li class="nav-item">
-                            <a href="http://localhost/portofolio/views/index.php" class="nav-link active">
+                            <a href="../views/index.php" class="nav-link active">
                             <i class="fas fa-id-badge"></i>
                                 <p>
                                     Profile
@@ -76,7 +76,7 @@ $sql = query('SELECT * FROM profile');
                         </li>
 
                         <li class="nav-item">
-                            <a href="http://localhost/portofolio/views/kontak.php" class="nav-link">
+                            <a href="../views/kontak.php" class="nav-link">
                             <i class="fas fa-phone"></i>
                                 <p>
                                     Kontak
@@ -85,7 +85,7 @@ $sql = query('SELECT * FROM profile');
                         </li>
 
                         <li class="nav-item">
-                            <a href="http://localhost/portofolio/views/project.php" class="nav-link">
+                            <a href="../views/project.php" class="nav-link">
                             <i class="fas fa-project-diagram"></i>
                                 <p>
                                     Project
@@ -94,7 +94,7 @@ $sql = query('SELECT * FROM profile');
                         </li>
 
                         <li class="nav-item">
-                            <a href="http://localhost/portofolio/views/sertifikat.php" class="nav-link">
+                            <a href="../views/sertifikat.php" class="nav-link">
                             <i class="fas fa-certificate"></i>
                                 <p>
                                     Sertifikat
@@ -103,7 +103,7 @@ $sql = query('SELECT * FROM profile');
                         </li>
 
                         <li class="nav-item">
-                            <a href="http://localhost/portofolio/views/skills.php" class="nav-link">
+                            <a href="../views/skills.php" class="nav-link">
                                 <i class="nav-icon fas fa-th"></i>
                                 <p>
                                     Skill
@@ -229,7 +229,7 @@ $sql = query('SELECT * FROM profile');
         // lakukan ajax ke link http://localhost/portofolio/controller/profile.php
         $.ajax({
             type: "GET",
-            url: "http://localhost/portofolio/controller/profile.php",
+            url: "../controller/profile.php",
             dataType: "json",
             success: function (response) {
                 // console.log(response);
